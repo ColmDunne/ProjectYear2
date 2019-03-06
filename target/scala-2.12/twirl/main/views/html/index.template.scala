@@ -32,8 +32,8 @@ object index extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.Html
 
 Seq[Any](format.raw/*1.27*/("""
 """),_display_(/*2.2*/main("Home", user)/*2.20*/{_display_(Seq[Any](format.raw/*2.21*/("""
-	"""),format.raw/*3.2*/("""<h1>Welcome to the Online Flea Market!</h1>
-	<h3>The place where you can buy anything and sell anyting<br/> (as long as it is legal and morally sound)</h3>
+	"""),format.raw/*3.2*/("""<h1>Welcome to C.C.A SportsWare!</h1>
+	<h3>The place where you can buy the top sports clothing brands</h3>
 """)))}),format.raw/*5.2*/("""
 
 """))
@@ -52,10 +52,10 @@ Seq[Any](format.raw/*1.27*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Sat Dec 01 17:48:10 GMT 2018
-                  SOURCE: /home/jvk/wdd1labs/LabWork/WDD1PlayLab/app/views/index.scala.html
-                  HASH: 4cd752082dea538a2efd59f05eee4b753c5b0616
-                  MATRIX: 959->1|1079->26|1107->29|1133->47|1171->48|1200->51|1388->210
+                  DATE: Wed Mar 06 16:10:45 GMT 2019
+                  SOURCE: /home/wdd/ProjectYear2/app/views/index.scala.html
+                  HASH: 8cb3c8775733d954ab0d3227cae40e50e16af1b5
+                  MATRIX: 959->1|1079->26|1107->29|1133->47|1171->48|1200->51|1339->161
                   LINES: 28->1|33->1|34->2|34->2|34->2|35->3|37->5
                   -- GENERATED --
               */

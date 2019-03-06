@@ -32,8 +32,16 @@ object about extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.Html
 
 Seq[Any](format.raw/*1.27*/("""
 """),_display_(/*2.2*/main("About Us", user)/*2.24*/ {_display_(Seq[Any](format.raw/*2.26*/("""
-	"""),format.raw/*3.2*/("""<h1>About us</h1>
-	<h3>We are the amazing, brilliant, magnificent, one and only online flea market!</h3>
+	"""),format.raw/*3.2*/("""<h4>About us</h4>
+	<h5>Conor Mc Donnell:</h5>
+<p></p> I am a student in T.U dublin (Tallaght) currently studying Computer science. I am twenty years old i am in second year</p> 
+<h5>Colm Dunne:</h5>
+<p> I am a student in T.U dublin (Tallaght) currently studying Computer science. I am twenty years old i am in second year</p> 
+<h5>Andrei Iancu:</h5>
+<p> I am a student in T.U dublin (Tallaght) currently studying Computer science. I am twenty years old i am in second year</p> 
+
+
+
 """)))}))
       }
     }
@@ -50,9 +58,9 @@ Seq[Any](format.raw/*1.27*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Sat Dec 01 17:48:10 GMT 2018
-                  SOURCE: /home/jvk/wdd1labs/LabWork/WDD1PlayLab/app/views/about.scala.html
-                  HASH: eb06cc5ff17fed2749c7d1d6f53c70e7eb0833ae
+                  DATE: Wed Mar 06 15:23:12 GMT 2019
+                  SOURCE: /home/wdd/ProjectYear2/app/views/about.scala.html
+                  HASH: c019cbd7ce458918d6e1bb445f6310af440cec07
                   MATRIX: 959->1|1079->26|1107->29|1137->51|1176->53|1205->56
                   LINES: 28->1|33->1|34->2|34->2|34->2|35->3
                   -- GENERATED --
