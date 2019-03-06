@@ -1,0 +1,6 @@
+2018-11-21 17:21:56 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "PLAY_EVOLUTIONS" not found; SQL statement:
+select id, hash, apply_script, revert_script, state, last_problem from play_evolutions where state like 'applying_%' [42102-197]
+2018-11-21 19:59:02 jdbc[44]: exception
+org.h2.jdbc.JdbcSQLException: Table "PRODUCT" not found; SQL statement:
+delete from product [42102-197]
