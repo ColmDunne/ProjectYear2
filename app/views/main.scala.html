@@ -20,7 +20,7 @@
 		<ul class="nav navbar-nav">
 		    <li @if(pagename == "Home"){class="active"}><a href="@routes.HomeController.index()">Home</a></li>
 		    <li @if(pagename == "On Sale"){class="active"}><a href="@routes.HomeController.onsale()">On Sale</a></li>
-		    <li @if(pagename == "About Us"){class="active"}><a href="@routes.HomeController.about()">About us</a></li>
+		    <li @if(pagename == "About Us"){class="active"}><a href="@routes.HomeController.about()">About us / F.A.Q</a></li>
 		    <li @if(pagename == "Log In"){class="active"}>
 				@if(user != null) {
 					<a href="@routes.LoginController.logout()">Log Out</a>

@@ -40,7 +40,7 @@ Seq[Any](format.raw/*1.27*/("""
 <h5>Andrei Iancu:</h5>
 <p> I am a student in T.U dublin (Tallaght) currently studying Computer science. I am twenty years old i am in second year</p> 
 
-
+<h4>F.A.Q</h4>
 
 """)))}))
       }
@@ -58,9 +58,9 @@ Seq[Any](format.raw/*1.27*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Wed Mar 06 15:23:12 GMT 2019
+                  DATE: Tue Mar 19 11:53:32 GMT 2019
                   SOURCE: /home/wdd/ProjectYear2/app/views/about.scala.html
-                  HASH: c019cbd7ce458918d6e1bb445f6310af440cec07
+                  HASH: 7e4af41015f00295a6791f8f23da45ef6d81ae8c
                   MATRIX: 959->1|1079->26|1107->29|1137->51|1176->53|1205->56
                   LINES: 28->1|33->1|34->2|34->2|34->2|35->3
                   -- GENERATED --
