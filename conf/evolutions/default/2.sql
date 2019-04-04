@@ -5,13 +5,14 @@
 delete from item_on_sale;
 delete from category;
  
-insert into category (id,name) values ( 1,'Electrical and Electronics' );
-insert into category (id,name) values ( 2,'Books' );
-insert into category (id,name) values ( 3,'Clothes' );
-insert into category (id,name) values ( 4,'Household' );
-insert into category (id,name) values ( 5,'Musical Instruments' );
-insert into category (id,name) values ( 6,'Sports Equipment' );
- 
+insert into category (id,name) values ( 1,'Trainers' );
+insert into category (id,name) values ( 2,'Shorts' );
+insert into category (id,name) values ( 3,'Bottoms' );
+insert into category (id,name) values ( 4,'Leggings' );
+insert into category (id,name) values ( 5,'Hoodies' );
+insert into category (id,name) values ( 6,'Jackets' );
+
+
 insert into item_on_sale (id,category_id,name,description,stock,price) values ( 1,1,'Television','Sony 42" LCD',1, 100.00 );
 insert into item_on_sale (id,category_id,name,description,stock,price) values ( 2,2,'Book','Mysteries of the Universe',1,3.00 );
 insert into item_on_sale (id,category_id,name,description,stock,price) values ( 3,3,'Fluffy Socks','Warm extra long socks (new)',100,2.00 );

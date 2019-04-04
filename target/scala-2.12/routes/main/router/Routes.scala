@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/wdd/ProjectYear2/conf/routes
-// @DATE:Wed Mar 06 14:28:38 GMT 2019
+// @DATE:Thu Apr 04 17:02:04 IST 2019
 
 package router
 
@@ -18,11 +18,11 @@ class Routes(
   HomeController_1: controllers.HomeController,
   // @LINE:20
   LoginController_4: controllers.LoginController,
-  // @LINE:27
-  CountController_0: controllers.CountController,
   // @LINE:29
+  CountController_0: controllers.CountController,
+  // @LINE:31
   AsyncController_2: controllers.AsyncController,
-  // @LINE:33
+  // @LINE:35
   Assets_3: controllers.Assets,
   val prefix: String
 ) extends GeneratedRouter {
@@ -33,11 +33,11 @@ class Routes(
     HomeController_1: controllers.HomeController,
     // @LINE:20
     LoginController_4: controllers.LoginController,
-    // @LINE:27
-    CountController_0: controllers.CountController,
     // @LINE:29
+    CountController_0: controllers.CountController,
+    // @LINE:31
     AsyncController_2: controllers.AsyncController,
-    // @LINE:33
+    // @LINE:35
     Assets_3: controllers.Assets
   ) = this(errorHandler, HomeController_1, LoginController_4, CountController_0, AsyncController_2, Assets_3, "/")
 
@@ -251,7 +251,7 @@ class Routes(
     )
   )
 
-  // @LINE:27
+  // @LINE:29
   private[this] lazy val controllers_CountController_count10_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("count")))
   )
@@ -269,7 +269,7 @@ class Routes(
     )
   )
 
-  // @LINE:29
+  // @LINE:31
   private[this] lazy val controllers_AsyncController_message11_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("message")))
   )
@@ -287,7 +287,7 @@ class Routes(
     )
   )
 
-  // @LINE:33
+  // @LINE:35
   private[this] lazy val controllers_Assets_versioned12_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("assets/"), DynamicPart("file", """.+""",false)))
   )
@@ -368,19 +368,19 @@ class Routes(
         controllers_LoginController_logout9_invoker.call(LoginController_4.logout)
       }
   
-    // @LINE:27
+    // @LINE:29
     case controllers_CountController_count10_route(params@_) =>
       call { 
         controllers_CountController_count10_invoker.call(CountController_0.count)
       }
   
-    // @LINE:29
+    // @LINE:31
     case controllers_AsyncController_message11_route(params@_) =>
       call { 
         controllers_AsyncController_message11_invoker.call(AsyncController_2.message)
       }
   
-    // @LINE:33
+    // @LINE:35
     case controllers_Assets_versioned12_route(params@_) =>
       call(Param[String]("path", Right("/public")), params.fromPath[Asset]("file", None)) { (path, file) =>
         controllers_Assets_versioned12_invoker.call(Assets_3.versioned(path, file))

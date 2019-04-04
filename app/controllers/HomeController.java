@@ -55,6 +55,7 @@ public class HomeController extends Controller {
     public Result about() {
         return ok(about.render(User.getUserById(session().get("email"))));
     }
+    
 
 /* old - no update
     public Result addItemSubmit() {

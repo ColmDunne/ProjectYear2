@@ -1,4 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/ProjectYear2/app/views/about.scala.html:26:25: not found: value gmail[0m
-[0m[[0m[31merror[0m] [0m[0m<p>Send an email to CCA@gmail.com for further issue on this matter.</p>[0m
-[0m[[0m[31merror[0m] [0m[0m                        ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/ProjectYear2/conf/routes:26:1: value signUp is not a member of controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mGET     /signup                     controllers.HomeController.signUp[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/ProjectYear2/conf/routes:27:1: value signUpSubmit is not a member of controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mGET     /signUpSubmit               controllers.HomeController.signUpSubmit()[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

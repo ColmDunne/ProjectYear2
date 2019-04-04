@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/wdd/ProjectYear2/conf/routes
-// @DATE:Wed Mar 06 14:28:38 GMT 2019
+// @DATE:Thu Apr 04 17:02:04 IST 2019
 
 import play.api.routing.JavaScriptReverseRoute
 
@@ -11,7 +11,7 @@ import _root_.play.libs.F
 // @LINE:6
 package controllers.javascript {
 
-  // @LINE:33
+  // @LINE:35
   class ReverseAssets(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -19,7 +19,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:33
+    // @LINE:35
     def versioned: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Assets.versioned",
       """
@@ -31,7 +31,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:27
+  // @LINE:29
   class ReverseCountController(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -39,7 +39,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:27
+    // @LINE:29
     def count: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.CountController.count",
       """
@@ -131,7 +131,7 @@ package controllers.javascript {
   
   }
 
-  // @LINE:29
+  // @LINE:31
   class ReverseAsyncController(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -139,7 +139,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:29
+    // @LINE:31
     def message: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.AsyncController.message",
       """
