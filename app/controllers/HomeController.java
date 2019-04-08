@@ -17,6 +17,7 @@ import models.users.*;
 import views.html.*;
 
 
+
 /**
  * This controller contains an action to handle HTTP requests
  * to the application's home page.
@@ -24,10 +25,11 @@ import views.html.*;
 public class HomeController extends Controller {
 
     private FormFactory formFactory;
-
+    private Environment e;
     @Inject
-    public HomeController(FormFactory f) {
+    public HomeController(FormFactory f,Environment env) {
         this.formFactory = f;
+        this.e=env;
     }
 
     public Result index() {
@@ -44,7 +46,7 @@ public class HomeController extends Controller {
         } else {
             itemList = Category.find.ref(cat).getItems();
         }
-        return ok(onsale.render(itemList, categoryList, User.getUserById(session().get("email"))));
+        return ok(onsale.render(itemList, categoryList, User.getUserById(session().get("email")),e));
     }
 
     @Security.Authenticated(Secured.class)
@@ -163,11 +165,12 @@ public class HomeController extends Controller {
                     extension = filename.substring(i+1);
                 }
                 File file=uploaded.getFile();
-
-                File dir = new File("pubklic/images/productImages");
+                
+                File dir = new File("public/images/productImages");
                 if(!dir.exists()){
                     dir.mkdirs();
                 }
+                
                 if(file.renameTo(new File("public/images/productImages",id + "." + extension))){
                     return "/ file uploaded";
                 }else{
