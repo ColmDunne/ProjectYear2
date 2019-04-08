@@ -39,7 +39,7 @@ Seq[Any](format.raw/*2.1*/("""
     <!-- Use a views.html.helpers package method to create the form (instead of html)-->
     <!-- Note the arguments that are being passed to the scala function form (they are
          essentially instructions for constructing an HTML form element)-->
-    """),_display_(/*11.6*/form(action=routes.HomeController.addItemSubmit(), 'class -> "form-horizontal", 'role -> "form")/*11.102*/ {_display_(Seq[Any](format.raw/*11.104*/("""
+    """),_display_(/*11.6*/form(action=routes.HomeController.addItemSubmit(), 'class -> "form-horizontal", 'role -> "form", 'enctype -> "multipart/form-data")/*11.137*/ {_display_(Seq[Any](format.raw/*11.139*/("""
         """),format.raw/*12.37*/("""
         """),format.raw/*13.99*/("""
         """),_display_(/*14.10*/CSRF/*14.14*/.formField),format.raw/*14.24*/("""
@@ -68,14 +68,22 @@ Seq[Any](format.raw/*2.1*/("""
                 1. The submit button for the form
                 2. A button that allows the user to cancel without adding an item
             -->
+            <label>Image Upload</label>
+               <input class="btn-sm btn-default" type="file" name="upload">
+               <br>
+               <br>
+
             <div class="actions">
                 <input type="submit" value="Add/Update item" class="btn btn-primary">
-                <a href=""""),_display_(/*42.27*/routes/*42.33*/.HomeController.onsale(0)),format.raw/*42.58*/("""">
+                <a href=""""),_display_(/*47.27*/routes/*47.33*/.HomeController.onsale(0)),format.raw/*47.58*/("""">
                     <button type="button" class="btn btn-warning">Cancel</button>
                 </a>
             </div>
-    """)))}),format.raw/*46.6*/(""" """),format.raw/*46.24*/("""
-""")))}),format.raw/*47.2*/(""" """),format.raw/*47.20*/("""
+            
+               
+
+    """)))}),format.raw/*54.6*/(""" """),format.raw/*54.24*/("""
+""")))}),format.raw/*55.2*/(""" """),format.raw/*55.20*/("""
 
 """))
       }
@@ -93,11 +101,11 @@ Seq[Any](format.raw/*2.1*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Wed Mar 06 14:28:41 GMT 2019
+                  DATE: Mon Apr 08 14:16:40 IST 2019
                   SOURCE: /home/wdd/ProjectYear2/app/views/additem.scala.html
-                  HASH: 0a17afdddb317c68a7cfaa698f5f90fd60c7a3d7
-                  MATRIX: 985->1|1118->64|1162->62|1189->80|1216->82|1246->104|1284->105|1315->110|1634->403|1740->499|1781->501|1818->538|1855->637|1892->647|1905->651|1936->661|1973->671|2347->1018|2374->1024|2403->1025|2655->1250|2748->1322|2789->1336|3064->1590|3105->1604|3213->1690|3254->1704|3349->1778|3390->1792|3485->1866|3527->1881|3609->1942|3651->1956|4043->2321|4058->2327|4104->2352|4264->2482|4293->2500|4325->2502|4354->2520
-                  LINES: 28->1|31->3|34->2|35->4|36->5|36->5|36->5|37->6|42->11|42->11|42->11|43->12|44->13|45->14|45->14|45->14|47->16|51->20|51->20|51->20|54->23|54->23|55->24|60->29|61->30|61->30|62->31|62->31|63->32|63->32|65->34|65->34|67->36|73->42|73->42|73->42|77->46|77->46|78->47|78->47
+                  HASH: 6ec770eebf1549e4af918661361cd4fb8e439ab0
+                  MATRIX: 985->1|1118->64|1162->62|1189->80|1216->82|1246->104|1284->105|1315->110|1634->403|1775->534|1816->536|1853->573|1890->672|1927->682|1940->686|1971->696|2008->706|2382->1053|2409->1059|2438->1060|2690->1285|2783->1357|2824->1371|3099->1625|3140->1639|3248->1725|3289->1739|3384->1813|3425->1827|3520->1901|3562->1916|3644->1977|3686->1991|4235->2513|4250->2519|4296->2544|4486->2704|4515->2722|4547->2724|4576->2742
+                  LINES: 28->1|31->3|34->2|35->4|36->5|36->5|36->5|37->6|42->11|42->11|42->11|43->12|44->13|45->14|45->14|45->14|47->16|51->20|51->20|51->20|54->23|54->23|55->24|60->29|61->30|61->30|62->31|62->31|63->32|63->32|65->34|65->34|67->36|78->47|78->47|78->47|85->54|85->54|86->55|86->55
                   -- GENERATED --
               */
           

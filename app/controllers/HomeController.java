@@ -1,7 +1,8 @@
 package controllers;
 
 import play.mvc.*;
-
+import play.mvc.Http.*;
+import play.mvc.Http.MultipartFormData.FilePart;
 import play.api.Environment;
 import play.data.*;
 import play.db.ebean.Transactional;
@@ -9,11 +10,12 @@ import play.db.ebean.Transactional;
 import java.util.ArrayList;
 import java.util.List;
 import javax.inject.Inject;
-
+import java.io.File;
 import models.*;
 import models.users.*;
 
 import views.html.*;
+
 
 /**
  * This controller contains an action to handle HTTP requests
@@ -99,11 +101,12 @@ public class HomeController extends Controller {
     @With(AuthAdmin.class)
     @Transactional
     public Result addItemSubmit() {
+        String saveImageMsg;
         // We use the method bindFromRequest() to populate our Form<ItemOnSale> object with the
         // data that the user submitted. Thanks to Play Framework, we do not need to do the messy
         // work of parsing the request and extracting data from it character by character.
         Form<ItemOnSale> newItemForm = formFactory.form(ItemOnSale.class).bindFromRequest();
-
+        
         // We check for errors (based on constraints set in ItemOnSale class)
         if (newItemForm.hasErrors()) {
             // If the form data have errors, we call the method badRequest(), requesting Play 
@@ -117,7 +120,9 @@ public class HomeController extends Controller {
             // here to extract the data into an ItemOnSale object. This is possible because
             // we defined the form in terms of the model class ItemOnSale.
             ItemOnSale newItem = newItemForm.get();
-
+            
+            newItem.save();
+            
             // To include update functionality we check whether the item has an id value. If it
             // does, we are looking at an existing item and the right operation to perform is
             // 'update'. If not, the operation to perform is 'save'.
@@ -130,7 +135,12 @@ public class HomeController extends Controller {
                 // in the database.
                 newItem.update();
             }
+            MultipartFormData data = request().body().asMultipartFormData();
+            FilePart image = data.getFile("upload");
 
+            saveImageMsg = saveFile(newItem.getId(),image);
+
+    
             // We use the flash scope to specify that we want a success message superimposed on
             // the next displayed page. The flash scope uses cookies, which we can read and set
             // using the flash() function of the Play Framework. The flash scope cookies last
@@ -142,6 +152,31 @@ public class HomeController extends Controller {
             return redirect(controllers.routes.HomeController.onsale(0));
         }
     }
+    public String saveFile(Long id,FilePart<File> uploaded){
+        String mimeType = uploaded.getContentType();
+        if(uploaded!= null){
+            if(mimeType.startsWith("image/")){
+                String filename = uploaded.getFilename();
+                String extension = "";
+                int i = filename.lastIndexOf('.');
+                if(i>=0){
+                    extension = filename.substring(i+1);
+                }
+                File file=uploaded.getFile();
+
+                File dir = new File("pubklic/images/productImages");
+                if(!dir.exists()){
+                    dir.mkdirs();
+                }
+                if(file.renameTo(new File("public/images/productImages",id + "." + extension))){
+                    return "/ file uploaded";
+                }else{
+                    return "/file upload failed";
+                }
+            }
+            return "/no file";
+        } return "";
+    } 
 
     @Security.Authenticated(Secured.class)
     @With(AuthAdmin.class)
@@ -177,4 +212,6 @@ public class HomeController extends Controller {
         // Display the "add item" page, to allow the user to update the item
         return ok(additem.render(itemForm, User.getUserById(session().get("email"))));
     }
+
+    
 }

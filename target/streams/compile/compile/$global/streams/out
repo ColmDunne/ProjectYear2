@@ -1,5 +1,2 @@
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/ProjectYear2/conf/routes:26:1: value signUp is not a member of controllers.HomeController[0m
-[0m[[0m[31merror[0m] [0m[0mGET     /signup                     controllers.HomeController.signUp[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/ProjectYear2/conf/routes:27:1: value signUpSubmit is not a member of controllers.HomeController[0m
-[0m[[0m[31merror[0m] [0m[0mGET     /signUpSubmit               controllers.HomeController.signUpSubmit()[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[0minfo[0m] [0m[0m/home/wdd/ProjectYear2/app/controllers/HomeController.java: /home/wdd/ProjectYear2/app/controllers/HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0m/home/wdd/ProjectYear2/app/controllers/HomeController.java: Recompile with -Xlint:unchecked for details.[0m
