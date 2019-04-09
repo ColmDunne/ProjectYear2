@@ -32,19 +32,20 @@ object index extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.Html
 
 Seq[Any](format.raw/*1.27*/("""
 """),_display_(/*2.2*/main("Home", user)/*2.20*/{_display_(Seq[Any](format.raw/*2.21*/("""
-
-		"""),format.raw/*4.3*/("""<div class="col-sm-4">
+	"""),format.raw/*3.2*/("""<div class="col-sm-3">
+		</div>
+		<div class="col-sm-4">
 		<div class="midcol">
-				<img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Messi_vs_Nigeria_2018.jpg" alt="Lamp" width="250" height="500">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Messi_vs_Nigeria_2018.jpg" alt="messi" width="250" height="500">
 	
 	
 	</div>
 	</div>
-	>
+	
 
 </div>
 
-		<div style="text-align:center;"class="col-sm-6" >
+		<div style="text-align:center;"class="col-sm-4" >
 	<h1 >Welcome to C.C.A SportsWare!</h1>
 	<h3>The place where you can buy the top sports clothing brands</h3>
 
@@ -58,14 +59,14 @@ Seq[Any](format.raw/*1.27*/("""
 
 		<div class="col-sm-4">
 		<div class="midcol">
-				<img src="https://cdn4.img.sputniknews.com/images/107064/58/1070645880.jpg" alt="Lamp" width="250" height="500">
+				<img src="https://specials-images.forbesimg.com/imageserve/5b156944a7ea436b547f54ff/416x416.jpg?background=000000&cropX1=557&cropX2=2378&cropY1=99&cropY2=1922" alt="Rory Mciroy" width="250" height="500">
 	
 	
 	
 	</div>
 </div>
 
-""")))}),format.raw/*36.2*/("""
+""")))}),format.raw/*37.2*/("""
 
 """))
       }
@@ -83,11 +84,11 @@ Seq[Any](format.raw/*1.27*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Tue Apr 09 14:38:12 IST 2019
+                  DATE: Tue Apr 09 15:55:48 IST 2019
                   SOURCE: /home/wdd/ProjectYear2/app/views/index.scala.html
-                  HASH: 2fd50ad88beda6542e979e2e996520a3586ec8d2
-                  MATRIX: 959->1|1079->26|1107->29|1133->47|1171->48|1203->54|1849->670
-                  LINES: 28->1|33->1|34->2|34->2|34->2|36->4|68->36
+                  HASH: e34d7e1801bf3954f02627120ac750fe079b624e
+                  MATRIX: 959->1|1079->26|1107->29|1133->47|1171->48|1200->51|1973->794
+                  LINES: 28->1|33->1|34->2|34->2|34->2|35->3|69->37
                   -- GENERATED --
               */
           

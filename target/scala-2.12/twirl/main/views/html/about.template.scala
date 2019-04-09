@@ -32,8 +32,11 @@ object about extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.Html
 
 Seq[Any](format.raw/*1.27*/("""
 """),_display_(/*2.2*/main("About Us", user)/*2.24*/ {_display_(Seq[Any](format.raw/*2.26*/("""
+	"""),format.raw/*3.2*/("""<div class="col-sm-4">
 
-	"""),format.raw/*4.2*/("""<div style="text-align:center;">>
+	</div>
+	<div class="col-sm-8">
+	<div style="text-align:center;">
 	<h2 align="center">About us</h2>
 <h4 style="color:Tomato;"><b>Conor Mc Donnell:</b></h4>
 <p > I am a student in T.U dublin (Tallaght) currently studying Computer science. I am twenty years old i am in second year</p> 
@@ -78,11 +81,12 @@ Seq[Any](format.raw/*1.27*/("""
 <p>-Send an email to xxxxxxxxxxx for further issue on this matter.</p>
 </div>
 </div>
-
+<div class="col-sm-4"></div>
 <div class="col-sm-6">
 	<div class="well "style="background-color:plum;">
 <h5><b>6.what payment method can I use ? </b></h5>
 <p>-You can use any of the cards listed below to pay for your order. You can also use PayPal to shop with us. Visa, Visa Electron, Mastercard, Maestro, One4All and PayPal. We take security very seriously so you can rest assure when you enter any of your details they'll be safe with us.</p>
+</div>
 </div>
 </div>
 """)))}))
@@ -101,11 +105,11 @@ Seq[Any](format.raw/*1.27*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Tue Apr 09 14:36:35 IST 2019
+                  DATE: Tue Apr 09 15:05:39 IST 2019
                   SOURCE: /home/wdd/ProjectYear2/app/views/about.scala.html
-                  HASH: f2b24f490faebcd3608959a4202632ad82a0e7f1
-                  MATRIX: 959->1|1079->26|1107->29|1137->51|1176->53|1207->58
-                  LINES: 28->1|33->1|34->2|34->2|34->2|36->4
+                  HASH: 35aae88a45f399a9999019d7133ed6dbac7e5013
+                  MATRIX: 959->1|1079->26|1107->29|1137->51|1176->53|1205->56
+                  LINES: 28->1|33->1|34->2|34->2|34->2|35->3
                   -- GENERATED --
               */
           
