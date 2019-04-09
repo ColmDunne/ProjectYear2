@@ -16,8 +16,7 @@ import models.users.*;
 
 import views.html.*;
 
-import org.im4java.core.ConvertCmd;
-import org.im4java.core.IMOperation;
+
 
 /**
  * This controller contains an action to handle HTTP requests
@@ -166,27 +165,8 @@ public class HomeController extends Controller {
                     extension = filename.substring(i+1);
                 }
                 File file=uploaded.getFile();
-                IMOperation op = new IMOperation();
-                op.addImage(file.getAbsolutePath());
-                op.resize(300,200);
-                op.addImage("public/images/productImages/" + id + ".jpg");
-
-                IMOperation thumb = new IMOperation();
-                thumb.addImage(file.getAbsolutePath());
-                thumb.resize(60);
-                thumb.addImage("public/images/productImages/Thumbnails" + id + ".jpg");
-                File dir = new File("public/images/productImages");
-                if(!dir.exists()){
-                    dir.mkdirs();
-                }
-                ConvertCmd cmd = new ConvertCmd();
-                try{
-                    cmd.run(op);
-                    cmd.run(thumb);
-                } catch(Exception e){
-                    e.printStackTrace();
-                } return " and image saved";
-
+                
+               
                 if(file.renameTo(new File("public/images/productImages",id + "." + extension))){
                     return "/ file uploaded";
                 }else{

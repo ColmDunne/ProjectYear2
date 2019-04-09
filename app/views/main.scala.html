@@ -20,16 +20,24 @@
 		<ul class="nav navbar-nav">
 		    <li @if(pagename == "Home"){class="active"}><a href="@routes.HomeController.index()">Home</a></li>
 		    <li @if(pagename == "On Sale"){class="active"}><a href="@routes.HomeController.onsale()">On Sale</a></li>
-		    <li @if(pagename == "About Us"){class="active"}><a href="@routes.HomeController.about()">About us / F.A.Q</a></li>
+			<li @if(pagename == "About Us"){class="active"}><a href="@routes.HomeController.about()">About us / F.A.Q</a></li>
 		    <li @if(pagename == "Log In"){class="active"}>
 				@if(user != null) {
 					<a href="@routes.LoginController.logout()">Log Out</a>
 				} else {
 					<a href="@routes.LoginController.login()">Log In</a>
-				}					
+				}	
+							
 			</li>
+			<li >
+					<form class="form-inline">
+							<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+							<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+						  </form>	
+			  </li>
 		</ul>
-	    </div>
+		</div>
+		
 	</nav>
 
 	
@@ -44,15 +52,6 @@
 		
 </div>
 </div>
-<div class="container-fluid">
-		<div class="col-sm-8">
-		<div class="midcol">
-				<img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Messi_vs_Nigeria_2018.jpg" alt="Lamp" width="150" height="700">
-	
-	
-	</div>
-	</div>
-	</div>
 
 
 <div class="col-sm-8">
