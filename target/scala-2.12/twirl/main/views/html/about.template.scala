@@ -38,18 +38,22 @@ Seq[Any](format.raw/*1.27*/("""
 	<div class="col-sm-8">
 	<div style="text-align:center;">
 	<h2 align="center">About us</h2>
-<h4 style="color:Tomato;"><b>Conor Mc Donnell:</b></h4>
-<p > I am a student in T.U dublin (Tallaght) currently studying Computer science. I am twenty years old i am in second year</p> 
-<h4 style="color:Tomato;"><b>Colm Dunne:</b></h4>
-<p> I am a student in T.U dublin (Tallaght) currently studying Computer science. I am twenty years old i am in second year</p> 
-<h4 style="color:Tomato;"><b>Andrei Iancu:</b></h4>
-<p> I am a student in T.U dublin (Tallaght) currently studying Computer science. I am twenty years old i am in second year</p> 
+<h4 style="color:Tomato;"><b>Conor Mc Donnell: Conor@gmail.com</b></h4>
+<p > I am a student in T.U dublin (Tallaght) currently studying Computer science.
+	 I am twenty years old i am in second year Im working par-time in Dunnes in the ilac. My plan is to stay there until im finished college.</p> 
+<h4 style="color:Tomato;"><b>Colm Dunne: Colm@gmail.com</b></h4>
+<p> I am a student in T.U dublin (Tallaght) currently studying Computer science. I am nineteen years old i am in second year i am working in Dunnes in the ashleaf. my plan for the future is to stay until i am finished college </p> 
+<h4 style="color:Tomato;"><b>Andrei Iancu: Andrei@gmail.com</b></h4>
+<p> I am a student in T.U dublin (Tallaght) currently studying Computer science. I am twenty years old i am in second year and am a pea head</p> 
 </div>
 <h2 align="center">F.A.Q</h2>
 <div class="col-sm-6">
 	<div class="well "style="background-color:plum;">
 <h5><b>1.How long does delivery take ? </b></h5>
+
 <p>-On average it takes 3-5 working days.</p>
+<br>
+
 	</div>
 </div>
 
@@ -57,6 +61,7 @@ Seq[Any](format.raw/*1.27*/("""
 	<div class="well "style="background-color:plum;">
 <h5><b>2.I'm an international customer. Does the price include customs fees/import taxes? </b></h5>
 <p>-The fee covers the import tax but additional fees apply for certain countries</p>
+
 </div>
 </div>
 
@@ -64,6 +69,7 @@ Seq[Any](format.raw/*1.27*/("""
 	<div class="well "style="background-color:plum;">
 <h5><b>3.Are you on any social media ?</b></h5>
 <p>-Yes we have a Facebook and we are currently working on other platforms.</p>
+<br>
 </div>
 </div>
 
@@ -79,13 +85,15 @@ Seq[Any](format.raw/*1.27*/("""
 	<div class="well "style="background-color:plum;">
 <h5><b>5.I would like to return an order what do I do ? </b></h5>
 <p>-Send an email to xxxxxxxxxxx for further issue on this matter.</p>
+<br>
+<br>
 </div>
 </div>
 <div class="col-sm-4"></div>
 <div class="col-sm-6">
 	<div class="well "style="background-color:plum;">
 <h5><b>6.what payment method can I use ? </b></h5>
-<p>-You can use any of the cards listed below to pay for your order. You can also use PayPal to shop with us. Visa, Visa Electron, Mastercard, Maestro, One4All and PayPal. We take security very seriously so you can rest assure when you enter any of your details they'll be safe with us.</p>
+<p>-You can use any of the cards listed below to pay for your order. You can also use PayPal to shop with us. Visa, Visa Electron, Mastercard, Maestro, One4All and PayPal.</p>
 </div>
 </div>
 </div>
@@ -105,9 +113,9 @@ Seq[Any](format.raw/*1.27*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Tue Apr 09 15:05:39 IST 2019
+                  DATE: Thu Apr 11 15:38:46 IST 2019
                   SOURCE: /home/wdd/ProjectYear2/app/views/about.scala.html
-                  HASH: 35aae88a45f399a9999019d7133ed6dbac7e5013
+                  HASH: 99ff878881a776dd75d7715c30814ea32172868c
                   MATRIX: 959->1|1079->26|1107->29|1137->51|1176->53|1205->56
                   LINES: 28->1|33->1|34->2|34->2|34->2|35->3
                   -- GENERATED --
