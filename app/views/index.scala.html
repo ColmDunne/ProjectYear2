@@ -10,15 +10,77 @@
 	</div>
 	</div>
 	
-
-</div>
-
 		<div style="text-align:center;"class="col-sm-4" >
 	<h1 >Welcome to C.C.A SportsWare!</h1>
 	<h3>The place where you can buy the top sports clothing brands</h3>
 
 
-
+	<div class="w3-container">
+		<h2>New shoes available</h2>
+		<p>These shoes are a limited time offer! </p>
+	  </div>
+	  
+	  <div class="w3-content w3-display-container">
+	  
+	  <div class="w3-display-container mySlides">
+		<img src="https://www.technobuffalo.com/sites/technobuffalo.com/files/styles/large/public/wp/2019/01/1nike-adapt-bb.jpg" style="width:40%">
+		<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+		Nike's new Adapt BB £150
+		</div>
+	  </div>
+	  
+	  <div class="w3-display-container mySlides">
+		<img src="https://cdn-images.farfetch-contents.com/13/19/70/13/13197013_14715715_1000.jpg" style="width:40%">
+		<div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+			BALENCIAGA Speed knitted sneakers £400
+		</div>
+	  </div>
+	  
+	  <div class="w3-display-container mySlides">
+		<img src="https://static.mainlinemenswear.co.uk/shopimages/products/normal/0000%20a%20%20%20827%20007.jpg" style="width:40%">
+		<div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+			BOSS Athleisure Spacit Trainers Black £80
+		</div>
+	  </div>
+	  
+	  <div class="w3-display-container mySlides">
+		<img src="https://tpc.googlesyndication.com/simgad/14045841722005816001" style="width:40%">
+		<div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+		 Fila Runners Women £100
+		</div>
+	  </div>
+	  
+	  <div class="w3-display-container mySlides">
+		<img src="https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1530812705/536532_GGZ30_1261_001_100_0000_Light-Flashtrek-sneaker-with-removable-crystals.jpg" style="width:40%">
+		<div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+			Flashtrek sneaker with removable crystals £1000
+		</div>
+	  </div>
+	  
+	  <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+	  <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+	  
+	  </div>
+	  
+	  <script>
+	  var slideIndex = 1;
+	  showDivs(slideIndex);
+	  
+	  function plusDivs(n) {
+		showDivs(slideIndex += n);
+	  }
+	  
+	  function showDivs(n) {
+		var i;
+		var x = document.getElementsByClassName("mySlides");
+		if (n > x.length) {slideIndex = 1}
+		if (n < 1) {slideIndex = x.length}
+		for (i = 0; i < x.length; i++) {
+		   x[i].style.display = "none";  
+		}
+		x[slideIndex-1].style.display = "block";  
+	  }
+	  </script>
 
 </div>
 </div>
@@ -33,6 +95,7 @@
 	
 	</div>
 </div>
+
 
 }
 

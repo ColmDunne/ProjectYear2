@@ -33,45 +33,42 @@ object main extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.HtmlF
 Seq[Any](format.raw/*2.1*/("""<!DOCTYPE html>
 <html>
     <head>
+			;">
+			<div class="container-fluid" style =background-color:;>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8"/>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="icon" type="image/png" href=""""),_display_(/*8.43*/routes/*8.49*/.Assets.versioned("images/favicon.png")),format.raw/*8.88*/("""">
+	<link rel="icon" type="image/png" href=""""),_display_(/*10.43*/routes/*10.49*/.Assets.versioned("images/favicon.png")),format.raw/*10.88*/("""">
 	<style>
 	
 	</style>
-	<title>OFM """),_display_(/*12.14*/pagename),format.raw/*12.22*/("""</title>
+	<title>OFM """),_display_(/*14.14*/pagename),format.raw/*14.22*/("""</title>
     </head>
     <body >
 	<nav style="background-color:black;">
 	    <div class="container-fluid">
 		<div class="navbar-header">
-		    <a class="navbar-brand" href="#">C.C.A SportsWare</a>
+		    <a class="navbar-brand" href=""""),_display_(/*20.38*/routes/*20.44*/.HomeController.index()),format.raw/*20.67*/("""">C.C.A SportsWare</a>
 		</div>
 		<ul class="nav navbar-nav">
-		    <li """),_display_(/*21.12*/if(pagename == "Home")/*21.34*/{_display_(Seq[Any](format.raw/*21.35*/("""class="active"""")))}),format.raw/*21.50*/("""><a href=""""),_display_(/*21.61*/routes/*21.67*/.HomeController.index()),format.raw/*21.90*/("""">Home</a></li>
-		    <li """),_display_(/*22.12*/if(pagename == "On Sale")/*22.37*/{_display_(Seq[Any](format.raw/*22.38*/("""class="active"""")))}),format.raw/*22.53*/("""><a href=""""),_display_(/*22.64*/routes/*22.70*/.HomeController.onsale()),format.raw/*22.94*/("""">On Sale</a></li>
-			<li """),_display_(/*23.9*/if(pagename == "About Us")/*23.35*/{_display_(Seq[Any](format.raw/*23.36*/("""class="active"""")))}),format.raw/*23.51*/("""><a href=""""),_display_(/*23.62*/routes/*23.68*/.HomeController.about()),format.raw/*23.91*/("""">About us / F.A.Q</a></li>
-		    <li """),_display_(/*24.12*/if(pagename == "Log In")/*24.36*/{_display_(Seq[Any](format.raw/*24.37*/("""class="active"""")))}),format.raw/*24.52*/(""">
-				"""),_display_(/*25.6*/if(user != null)/*25.22*/ {_display_(Seq[Any](format.raw/*25.24*/("""
-					"""),format.raw/*26.6*/("""<a href=""""),_display_(/*26.16*/routes/*26.22*/.LoginController.logout()),format.raw/*26.47*/("""">Log Out</a>
-				""")))}/*27.7*/else/*27.12*/{_display_(Seq[Any](format.raw/*27.13*/("""
-					"""),format.raw/*28.6*/("""<a href=""""),_display_(/*28.16*/routes/*28.22*/.LoginController.login()),format.raw/*28.46*/("""">Log In</a>
-				""")))}),format.raw/*29.6*/("""	
+		    <li """),_display_(/*23.12*/if(pagename == "Home")/*23.34*/{_display_(Seq[Any](format.raw/*23.35*/("""class="active"""")))}),format.raw/*23.50*/("""><a href=""""),_display_(/*23.61*/routes/*23.67*/.HomeController.index()),format.raw/*23.90*/("""">Home</a></li>
+		    <li """),_display_(/*24.12*/if(pagename == "On Sale")/*24.37*/{_display_(Seq[Any](format.raw/*24.38*/("""class="active"""")))}),format.raw/*24.53*/("""><a href=""""),_display_(/*24.64*/routes/*24.70*/.HomeController.onsale()),format.raw/*24.94*/("""">On Sale</a></li>
+			<li """),_display_(/*25.9*/if(pagename == "About Us")/*25.35*/{_display_(Seq[Any](format.raw/*25.36*/("""class="active"""")))}),format.raw/*25.51*/("""><a href=""""),_display_(/*25.62*/routes/*25.68*/.HomeController.about()),format.raw/*25.91*/("""">About us / F.A.Q</a></li>
+		    <li """),_display_(/*26.12*/if(pagename == "Log In")/*26.36*/{_display_(Seq[Any](format.raw/*26.37*/("""class="active"""")))}),format.raw/*26.52*/(""">
+				"""),_display_(/*27.6*/if(user != null)/*27.22*/ {_display_(Seq[Any](format.raw/*27.24*/("""
+					"""),format.raw/*28.6*/("""<a href=""""),_display_(/*28.16*/routes/*28.22*/.LoginController.logout()),format.raw/*28.47*/("""">Log Out</a>
+				""")))}/*29.7*/else/*29.12*/{_display_(Seq[Any](format.raw/*29.13*/("""
+					"""),format.raw/*30.6*/("""<a href=""""),_display_(/*30.16*/routes/*30.22*/.LoginController.login()),format.raw/*30.46*/("""">Log In</a>
+				""")))}),format.raw/*31.6*/("""	
 							
-			"""),format.raw/*31.4*/("""</li>
-			<li >
-					<form class="form-inline">
-							<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-							<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-						  </form>	
-			  </li>
+			"""),format.raw/*33.4*/("""</li>
+			
 		</ul>
 		</div>
 		<div class="container-fluid"style="background-color:white"style>
-		<div class="col-sm-4"style="background-color:green" style="text-align:center;"><p>Free deliverys over 60 euro!</p></div>
-		<div class="col-sm-4"style="background-color:white" style="text-align:center"><p>Half Price sale soon stay tuned! </p></div>
-		<div class="col-sm-4"style="background-color:orange" style="text-align:center"><p>Cheapest prices guardinted! </p></div>
+		<div class="col-sm-4"style="background-color:green" style="text-align:center;"><b>Free deliverys over 60 euro!</b></div>
+		<div class="col-sm-4"style="background-color:white" style="text-align:center"><b>Half Price sale soon stay tuned! </b></div>
+		<div class="col-sm-4"style="background-color:orange" style="text-align:center"><b>Cheapest prices guardinted! </b></div>
 	</div>
 	</nav>
 	
@@ -93,8 +90,8 @@ Seq[Any](format.raw/*2.1*/("""<!DOCTYPE html>
 
 <div class="col-sm-8">
 		<div class="midcol">
-							"""),_display_(/*65.9*/content),format.raw/*65.16*/("""
-						"""),format.raw/*66.7*/("""</div>
+							"""),_display_(/*62.9*/content),format.raw/*62.16*/("""
+						"""),format.raw/*63.7*/("""</div>
 					</div>
 			
 			
@@ -107,8 +104,9 @@ Seq[Any](format.raw/*2.1*/("""<!DOCTYPE html>
 		</div>
 	    </div>
 	</div>
-	<script src=""""),_display_(/*79.16*/routes/*79.22*/.Assets.versioned("javascripts/main.js")),format.raw/*79.62*/(""""></script>
-    </body>
+	<script src=""""),_display_(/*76.16*/routes/*76.22*/.Assets.versioned("javascripts/main.js")),format.raw/*76.62*/(""""></script>
+</div>
+</body>
 </html>
 
 
@@ -128,11 +126,11 @@ Seq[Any](format.raw/*2.1*/("""<!DOCTYPE html>
 
               /*
                   -- GENERATED --
-                  DATE: Tue Apr 09 15:58:52 IST 2019
+                  DATE: Thu Apr 11 14:14:53 IST 2019
                   SOURCE: /home/wdd/ProjectYear2/app/views/main.scala.html
-                  HASH: 73255c9cbdc511f6e5a04ee1b2dab824b458f38a
-                  MATRIX: 970->1|1122->60|1423->335|1437->341|1496->380|1560->417|1589->425|1863->672|1894->694|1933->695|1979->710|2017->721|2032->727|2076->750|2130->777|2164->802|2203->803|2249->818|2287->829|2302->835|2347->859|2400->886|2435->912|2474->913|2520->928|2558->939|2573->945|2617->968|2683->1007|2716->1031|2755->1032|2801->1047|2834->1054|2859->1070|2899->1072|2932->1078|2969->1088|2984->1094|3030->1119|3067->1139|3080->1144|3119->1145|3152->1151|3189->1161|3204->1167|3249->1191|3297->1209|3337->1222|4406->2265|4434->2272|4468->2279|4694->2478|4709->2484|4770->2524
-                  LINES: 28->1|33->2|39->8|39->8|39->8|43->12|43->12|52->21|52->21|52->21|52->21|52->21|52->21|52->21|53->22|53->22|53->22|53->22|53->22|53->22|53->22|54->23|54->23|54->23|54->23|54->23|54->23|54->23|55->24|55->24|55->24|55->24|56->25|56->25|56->25|57->26|57->26|57->26|57->26|58->27|58->27|58->27|59->28|59->28|59->28|59->28|60->29|62->31|96->65|96->65|97->66|110->79|110->79|110->79
+                  HASH: e5059a93859625ecbeac10829647332369f27c0a
+                  MATRIX: 970->1|1122->60|1490->401|1505->407|1565->446|1629->483|1658->491|1859->665|1874->671|1918->694|2018->767|2049->789|2088->790|2134->805|2172->816|2187->822|2231->845|2285->872|2319->897|2358->898|2404->913|2442->924|2457->930|2502->954|2555->981|2590->1007|2629->1008|2675->1023|2713->1034|2728->1040|2772->1063|2838->1102|2871->1126|2910->1127|2956->1142|2989->1149|3014->1165|3054->1167|3087->1173|3124->1183|3139->1189|3185->1214|3222->1234|3235->1239|3274->1240|3307->1246|3344->1256|3359->1262|3404->1286|3452->1304|3492->1317|4307->2106|4335->2113|4369->2120|4595->2319|4610->2325|4671->2365
+                  LINES: 28->1|33->2|41->10|41->10|41->10|45->14|45->14|51->20|51->20|51->20|54->23|54->23|54->23|54->23|54->23|54->23|54->23|55->24|55->24|55->24|55->24|55->24|55->24|55->24|56->25|56->25|56->25|56->25|56->25|56->25|56->25|57->26|57->26|57->26|57->26|58->27|58->27|58->27|59->28|59->28|59->28|59->28|60->29|60->29|60->29|61->30|61->30|61->30|61->30|62->31|64->33|93->62|93->62|94->63|107->76|107->76|107->76
                   -- GENERATED --
               */
           

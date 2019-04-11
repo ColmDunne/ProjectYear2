@@ -2,6 +2,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+			;">
+			<div class="container-fluid" style =background-color:;>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8"/>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -15,7 +17,7 @@
 	<nav style="background-color:black;">
 	    <div class="container-fluid">
 		<div class="navbar-header">
-		    <a class="navbar-brand" href="#">C.C.A SportsWare</a>
+		    <a class="navbar-brand" href="@routes.HomeController.index()">C.C.A SportsWare</a>
 		</div>
 		<ul class="nav navbar-nav">
 		    <li @if(pagename == "Home"){class="active"}><a href="@routes.HomeController.index()">Home</a></li>
@@ -29,18 +31,13 @@
 				}	
 							
 			</li>
-			<li >
-					<form class="form-inline">
-							<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-							<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-						  </form>	
-			  </li>
+			
 		</ul>
 		</div>
 		<div class="container-fluid"style="background-color:white"style>
-		<div class="col-sm-4"style="background-color:green" style="text-align:center;"><p>Free deliverys over 60 euro!</p></div>
-		<div class="col-sm-4"style="background-color:white" style="text-align:center"><p>Half Price sale soon stay tuned! </p></div>
-		<div class="col-sm-4"style="background-color:orange" style="text-align:center"><p>Cheapest prices guardinted! </p></div>
+		<div class="col-sm-4"style="background-color:green" style="text-align:center;"><b>Free deliverys over 60 euro!</b></div>
+		<div class="col-sm-4"style="background-color:white" style="text-align:center"><b>Half Price sale soon stay tuned! </b></div>
+		<div class="col-sm-4"style="background-color:orange" style="text-align:center"><b>Cheapest prices guardinted! </b></div>
 	</div>
 	</nav>
 	
@@ -77,7 +74,8 @@
 	    </div>
 	</div>
 	<script src="@routes.Assets.versioned("javascripts/main.js")"></script>
-    </body>
+</div>
+</body>
 </html>
 
 
