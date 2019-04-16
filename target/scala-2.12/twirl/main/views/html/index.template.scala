@@ -36,7 +36,7 @@ Seq[Any](format.raw/*1.27*/("""
 		</div>
 		<div class="col-sm-4">
 		<div class="midcol">
-				<img src="https://i.pinimg.com/originals/3a/f9/4f/3af94f5e4e58cb5cdf0509c4904825c8.jpg" alt="messi" width="300" height="600">
+				<img src="https://i.pinimg.com/originals/3a/f9/4f/3af94f5e4e58cb5cdf0509c4904825c8.jpg" alt="messi" width="300" height="700">
 	
 	
 	</div>
@@ -55,7 +55,7 @@ Seq[Any](format.raw/*1.27*/("""
 	  <div class="w3-content w3-display-container">
 	  
 	  <div class="w3-display-container mySlides">
-		<img src="https://www.technobuffalo.com/sites/technobuffalo.com/files/styles/large/public/wp/2019/01/1nike-adapt-bb.jpg" style="width:40%">
+		<img src="https://www.technobuffalo.com/sites/technobuffalo.com/files/styles/large/public/wp/2019/01/1nike-adapt-bb.jpg" style="width:80%">
 		<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
 		Nike's new Adapt BB £150
 		</div>
@@ -69,23 +69,23 @@ Seq[Any](format.raw/*1.27*/("""
 	  </div>
 	  
 	  <div class="w3-display-container mySlides">
-		<img src="https://static.mainlinemenswear.co.uk/shopimages/products/normal/0000%20a%20%20%20827%20007.jpg" style="width:40%">
+		<img src="https://static.mainlinemenswear.co.uk/shopimages/products/normal/0000%20a%20%20%20827%20007.jpg" style="width:55%">
 		<div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
 			BOSS Athleisure Spacit Trainers Black £80
 		</div>
 	  </div>
 	  
 	  <div class="w3-display-container mySlides">
-		<img src="https://tpc.googlesyndication.com/simgad/14045841722005816001" style="width:40%">
+		<img src="https://tpc.googlesyndication.com/simgad/14045841722005816001" style="width:100%">
 		<div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
 		 Fila Runners Women £100
 		</div>
 	  </div>
 	  
 	  <div class="w3-display-container mySlides">
-		<img src="https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1530812705/536532_GGZ30_1261_001_100_0000_Light-Flashtrek-sneaker-with-removable-crystals.jpg" style="width:40%">
+		<img src="https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1530812705/536532_GGZ30_1261_001_100_0000_Light-Flashtrek-sneaker-with-removable-crystals.jpg" style="width:55%">
 		<div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
-			Flashtrek sneaker with removable crystals £1000
+			Gucci Flashtrek sneaker with removable crystals £1000
 		</div>
 	  </div>
 	  
@@ -121,7 +121,7 @@ Seq[Any](format.raw/*1.27*/("""
 
 		<div class="col-sm-4">
 		<div class="midcol">
-				<img src="https://i.pinimg.com/originals/91/84/5b/91845b732fbbb0ad01edefb8467a7e59.jpg" alt="Rory Mciroy" width="300" height="600">
+				<img src="https://i.pinimg.com/originals/91/84/5b/91845b732fbbb0ad01edefb8467a7e59.jpg" alt="Rory Mciroy" width="300" height="700">
 	
 	
 	
@@ -147,10 +147,10 @@ Seq[Any](format.raw/*1.27*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Thu Apr 11 15:18:15 IST 2019
+                  DATE: Tue Apr 16 15:12:11 IST 2019
                   SOURCE: /home/wdd/ProjectYear2/app/views/index.scala.html
-                  HASH: 2a05462a610f98f4c778033d37cec891fc2f7a92
-                  MATRIX: 959->1|1079->26|1107->29|1133->47|1171->48|1200->51|3768->2591|3797->2592|3828->2596|3886->2627|3914->2628|3951->2638|4000->2659|4029->2660|4060->2664|4172->2748|4201->2749|4243->2763|4272->2764|4303->2768|4342->2779|4371->2780|4420->2801|4449->2802|4480->2806|4539->2837|4568->2838|4602->2845|4663->2879|4691->2880|4722->2884|4796->2931|4824->2932|4856->2937|5180->3230
+                  HASH: 8631001cf44e076f51bff5f377f096d1ec953e4e
+                  MATRIX: 959->1|1079->26|1107->29|1133->47|1171->48|1200->51|3775->2598|3804->2599|3835->2603|3893->2634|3921->2635|3958->2645|4007->2666|4036->2667|4067->2671|4179->2755|4208->2756|4250->2770|4279->2771|4310->2775|4349->2786|4378->2787|4427->2808|4456->2809|4487->2813|4546->2844|4575->2845|4609->2852|4670->2886|4698->2887|4729->2891|4803->2938|4831->2939|4863->2944|5187->3237
                   LINES: 28->1|33->1|34->2|34->2|34->2|35->3|101->69|101->69|102->70|103->71|103->71|105->73|105->73|105->73|106->74|108->76|108->76|108->76|108->76|109->77|109->77|109->77|109->77|109->77|110->78|110->78|110->78|111->79|112->80|112->80|113->81|114->82|114->82|115->83|132->100
                   -- GENERATED --
               */

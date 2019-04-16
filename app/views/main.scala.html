@@ -3,45 +3,91 @@
 <html>
     <head>
 			
-			<div class="container-fluid" style =background-color:;>
+			
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8"/>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
-	<style>
-	
-	</style>
+	<div class="container-fluid" ></div>
 	<title>OFM @pagename</title>
     </head>
     <body >
-	<nav style="background-color:black;">
-	    <div class="container-fluid">
-		<div class="navbar-header">
-		    <a class="navbar-brand" href="@routes.HomeController.index()">C.C.A SportsWare</a>
-		</div>
-		<ul class="nav navbar-nav">
-		    <li @if(pagename == "Home"){class="active"}><a href="@routes.HomeController.index()">Home</a></li>
-		    <li @if(pagename == "On Sale"){class="active"}><a href="@routes.HomeController.onsale()">On Sale</a></li>
-			<li @if(pagename == "About Us"){class="active"}><a href="@routes.HomeController.about()">About us / F.A.Q</a></li>
-		    <li @if(pagename == "Log In"){class="active"}>
-				@if(user != null) {
-					<a href="@routes.LoginController.logout()">Log Out</a>
-				} else {
-					<a href="@routes.LoginController.login()">Log In</a>
-				}	
-							
-			</li>
+
+		<style>
+			body {
+			  margin: 0;
+			  font-family: Arial, Helvetica, sans-serif;
+			}
 			
-		</ul>
+			.topnav {
+			  overflow: hidden;
+			  background-color: #333;
+			}
+			
+			.topnav a {
+			  float: left;
+			  color: #f2f2f2;
+			  text-align: center;
+			  padding: 14px 16px;
+			  text-decoration: none;
+			  font-size: 17px;
+			}
+			
+			.topnav a:hover {
+			  background-color: #ddd;
+			  color: black;
+			}
+			
+			.topnav a.active {
+			  background-color: #4CAF50;
+			  color: white;
+			}
+			</style>
+			</head>
+			<body>
+			
+			<div class="topnav">
+			  <a class="active" href="@routes.HomeController.index()">C.C.A SportsWare</a>
+			  <a href="@routes.HomeController.index()">Home</a>
+			  <a href="@routes.HomeController.onsale()">On Sale</a>
+			  <a href="@routes.HomeController.about()">About us / F.A.Q</a>
+			  @if(user != null) {
+				<a href="@routes.LoginController.logout()">Log Out</a>
+			} else {
+				<a href="@routes.LoginController.login()">Log In</a>
+			}	
+			<a><div></div></a><a><div></div></a><a><div></div></a><a><div></div></a><a><div></div></a><a><div></div></a>
+			<a><div></div></a><a><div></div></a><a><div></div></a><a><div></div></a><a><div></div></a><a><div></div></a>
+			<a><div></div></a><a><div></div></a><a><div></div></a><a><div></div></a><a><div></div></a><a><div></div></a>
+			<a><div></div></a><a><div></div></a><a><div></div></a><a><div></div></a><a><div></div></a><a><div></div></a>
+			<a><div></div></a><a><div></div></a><a><div></div></a><a><div></div></a><a><div></div></a><a><div></div></a>
+			<a><div></div></a><a><div></div></a>
+			
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+					<button style="background-color: #4CAF50" style="color:white;" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				  </form>
+				</div>
+			  
+			</div>
+		
+		</div>
+
 		</div>
 		<div class="container-fluid"style="background-color:white"style>
-		<div class="col-sm-4"style="background-color:green" style="text-align:center;"><b>Free deliverys over 60 euro!</b></div>
-		<div class="col-sm-4"style="background-color:white" style="text-align:center"><b>Half Price sale soon stay tuned! </b></div>
-		<div class="col-sm-4"style="background-color:orange" style="text-align:center"><b>Cheapest prices guardinted! </b></div>
+		<div class="col-sm-4"style="background-color: #4CAF50" style="text-align:center;"><b style="color:white">Free deliverys over 60 euro!</b></div>
+		<div class="col-sm-4"style="background-color:white" style="text-align:center"><b >Half Price sale soon stay tuned! </b></div>
+		<div class="col-sm-4"style="background-color:orange" style="text-align:center"><b style="color:white">Cheapest prices guardinted! </b></div>
 	</div>
+
+
+
+
+
+
 	</nav>
 	
-	</nav>
+	
 
 	
 	<div class="container-fluid">

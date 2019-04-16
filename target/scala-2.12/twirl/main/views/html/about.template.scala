@@ -35,6 +35,7 @@ Seq[Any](format.raw/*1.27*/("""
 	"""),format.raw/*3.2*/("""<div class="col-sm-4">
 
 	</div>
+
 	<div class="col-sm-8">
 	<div style="text-align:center;">
 	<h2 align="center">About us</h2>
@@ -47,7 +48,7 @@ Seq[Any](format.raw/*1.27*/("""
 <p> I am a student in T.U dublin (Tallaght) currently studying Computer science. I am twenty years old i am in second year and am a pea head</p> 
 </div>
 <h2 align="center">F.A.Q</h2>
-<div class="col-sm-6">
+<div class="col-sm-12">
 	<div class="well "style="background-color:plum;">
 <h5><b>1.How long does delivery take ? </b></h5>
 
@@ -57,7 +58,7 @@ Seq[Any](format.raw/*1.27*/("""
 	</div>
 </div>
 
-<div class="col-sm-6">
+<div class="col-sm-12">
 	<div class="well "style="background-color:plum;">
 <h5><b>2.I'm an international customer. Does the price include customs fees/import taxes? </b></h5>
 <p>-The fee covers the import tax but additional fees apply for certain countries</p>
@@ -65,7 +66,7 @@ Seq[Any](format.raw/*1.27*/("""
 </div>
 </div>
 
-<div class="col-sm-6">
+<div class="col-sm-12">
 	<div class="well "style="background-color:plum;">
 <h5><b>3.Are you on any social media ?</b></h5>
 <p>-Yes we have a Facebook and we are currently working on other platforms.</p>
@@ -73,7 +74,7 @@ Seq[Any](format.raw/*1.27*/("""
 </div>
 </div>
 
-<div class="col-sm-6">
+<div class="col-sm-12">
 	<div class="well "style="background-color:plum;">
 
 <h5><b>4.how often do we update our website </b></h5>
@@ -81,23 +82,49 @@ Seq[Any](format.raw/*1.27*/("""
 </div>
 </div>
 
-<div class="col-sm-6">
+<div class="col-sm-12">
 	<div class="well "style="background-color:plum;">
 <h5><b>5.I would like to return an order what do I do ? </b></h5>
-<p>-Send an email to xxxxxxxxxxx for further issue on this matter.</p>
+<p>-Send an email to help@gmail.com for further issue on this matter.</p>
 <br>
 <br>
 </div>
 </div>
-<div class="col-sm-4"></div>
-<div class="col-sm-6">
+<div class="col-sm-2"></div>
+<div class="col-sm-12">
 	<div class="well "style="background-color:plum;">
 <h5><b>6.what payment method can I use ? </b></h5>
 <p>-You can use any of the cards listed below to pay for your order. You can also use PayPal to shop with us. Visa, Visa Electron, Mastercard, Maestro, One4All and PayPal.</p>
 </div>
 </div>
 </div>
-""")))}))
+
+
+
+
+
+
+
+
+
+
+
+
+
+""")))}),format.raw/*82.2*/("""
+
+
+
+
+
+
+
+
+
+
+
+
+"""))
       }
     }
   }
@@ -113,11 +140,11 @@ Seq[Any](format.raw/*1.27*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Thu Apr 11 15:38:46 IST 2019
+                  DATE: Tue Apr 16 14:52:44 IST 2019
                   SOURCE: /home/wdd/ProjectYear2/app/views/about.scala.html
-                  HASH: 99ff878881a776dd75d7715c30814ea32172868c
-                  MATRIX: 959->1|1079->26|1107->29|1137->51|1176->53|1205->56
-                  LINES: 28->1|33->1|34->2|34->2|34->2|35->3
+                  HASH: ce714b899ebe09a872d78e6db9e78e4310b2fb4d
+                  MATRIX: 959->1|1079->26|1107->29|1137->51|1176->53|1205->56|3835->2660
+                  LINES: 28->1|33->1|34->2|34->2|34->2|35->3|114->82
                   -- GENERATED --
               */
           

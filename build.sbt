@@ -1,4 +1,4 @@
-name := """WDD1PlayLabs"""
+name := """ProjectYear2"""
 
 version := "1.0-SNAPSHOT"
 
