@@ -49,52 +49,52 @@ Seq[Any](format.raw/*1.27*/("""
 </div>
 <h2 align="center">F.A.Q</h2>
 <div class="col-sm-12">
-	<div class="well "style="background-color:plum;">
-<h5><b>1.How long does delivery take ? </b></h5>
+	<div class="well "style="background-color:#333;">
+<h5 style="color: white;"><b>1.How long does delivery take ? </b></h5>
 
-<p>-On average it takes 3-5 working days.</p>
+<p style="color: white;">-On average it takes 3-5 working days.</p>
 <br>
 
 	</div>
 </div>
 
 <div class="col-sm-12">
-	<div class="well "style="background-color:plum;">
-<h5><b>2.I'm an international customer. Does the price include customs fees/import taxes? </b></h5>
-<p>-The fee covers the import tax but additional fees apply for certain countries</p>
+	<div class="well "style="background-color:#333;" style="color: white;">
+<h5 style="color: white;"><b>2.I'm an international customer. Does the price include customs fees/import taxes? </b></h5>
+<p style="color: white;">-The fee covers the import tax but additional fees apply for certain countries</p>
 
 </div>
 </div>
 
 <div class="col-sm-12">
-	<div class="well "style="background-color:plum;">
-<h5><b>3.Are you on any social media ?</b></h5>
-<p>-Yes we have a Facebook and we are currently working on other platforms.</p>
+	<div class="well "style="background-color:#333;">
+<h5 style="color: white;"><b>3.Are you on any social media ?</b></h5>
+<p style="color: white;">-Yes we have a Facebook and we are currently working on other platforms.</p>
 <br>
 </div>
 </div>
 
 <div class="col-sm-12">
-	<div class="well "style="background-color:plum;">
+	<div class="well "style="background-color:#333;">
 
-<h5><b>4.how often do we update our website </b></h5>
-<p>-We try our best to update it every 2-3 days and when we have new products we do it straight away.</p>
+<h5 style="color: white;"><b>4.how often do we update our website </b></h5>
+<p style="color: white;">-We try our best to update it every 2-3 days and when we have new products we do it straight away.</p>
 </div>
 </div>
 
 <div class="col-sm-12">
-	<div class="well "style="background-color:plum;">
-<h5><b>5.I would like to return an order what do I do ? </b></h5>
-<p>-Send an email to help@gmail.com for further issue on this matter.</p>
+	<div class="well "style="background-color:#333;">
+<h5 style="color: white;"><b>5.I would like to return an order what do I do ? </b></h5>
+<p style="color: white;">-Send an email to help@gmail.com for further issue on this matter.</p>
 <br>
 <br>
 </div>
 </div>
 <div class="col-sm-2"></div>
 <div class="col-sm-12">
-	<div class="well "style="background-color:plum;">
-<h5><b>6.what payment method can I use ? </b></h5>
-<p>-You can use any of the cards listed below to pay for your order. You can also use PayPal to shop with us. Visa, Visa Electron, Mastercard, Maestro, One4All and PayPal.</p>
+	<div class="well "style="background-color:#333;">
+<h5 style="color: white;"><b>6.what payment method can I use ? </b></h5>
+<p style="color: white;">-You can use any of the cards listed below to pay for your order. You can also use PayPal to shop with us. Visa, Visa Electron, Mastercard, Maestro, One4All and PayPal.</p>
 </div>
 </div>
 </div>
@@ -140,10 +140,10 @@ Seq[Any](format.raw/*1.27*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Tue Apr 16 14:52:44 IST 2019
+                  DATE: Wed Apr 17 15:42:20 IST 2019
                   SOURCE: /home/wdd/ProjectYear2/app/views/about.scala.html
-                  HASH: ce714b899ebe09a872d78e6db9e78e4310b2fb4d
-                  MATRIX: 959->1|1079->26|1107->29|1137->51|1176->53|1205->56|3835->2660
+                  HASH: 7bc9a2b38fa4c2eeb977432ada45ce7db54e272b
+                  MATRIX: 959->1|1079->26|1107->29|1137->51|1176->53|1205->56|4121->2946
                   LINES: 28->1|33->1|34->2|34->2|34->2|35->3|114->82
                   -- GENERATED --
               */
