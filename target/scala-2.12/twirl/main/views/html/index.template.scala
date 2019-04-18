@@ -36,8 +36,8 @@ Seq[Any](format.raw/*1.27*/("""
 		</div>
 		<div class="col-sm-4">
 		<div class="midcol">
-				<img src="https://i.pinimg.com/originals/3a/f9/4f/3af94f5e4e58cb5cdf0509c4904825c8.jpg" alt="messi" width="300" height="700">
-	
+				
+				<img src="/assets/images/productImages/nike.jpg" alt="Nike" width="350" height="700"/>
 	
 	</div>
 	</div>
@@ -57,35 +57,35 @@ Seq[Any](format.raw/*1.27*/("""
 	  <div class="w3-display-container mySlides">
 		<img src="https://www.technobuffalo.com/sites/technobuffalo.com/files/styles/large/public/wp/2019/01/1nike-adapt-bb.jpg" style="width:80%">
 		<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
-		Nike's new Adapt BB £150
+		Nike's new Adapt BB &euro; 150
 		</div>
 	  </div>
 	  
 	  <div class="w3-display-container mySlides">
 		<img src="https://cdn-images.farfetch-contents.com/13/19/70/13/13197013_14715715_1000.jpg" style="width:40%">
 		<div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-			BALENCIAGA Speed knitted sneakers £400
+			BALENCIAGA Speed knitted sneakers  &euro; 400
 		</div>
 	  </div>
 	  
 	  <div class="w3-display-container mySlides">
 		<img src="https://static.mainlinemenswear.co.uk/shopimages/products/normal/0000%20a%20%20%20827%20007.jpg" style="width:55%">
 		<div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
-			BOSS Athleisure Spacit Trainers Black £80
+			BOSS Athleisure Spacit Trainers Black  &euro; 80
 		</div>
 	  </div>
 	  
 	  <div class="w3-display-container mySlides">
 		<img src="https://tpc.googlesyndication.com/simgad/14045841722005816001" style="width:100%">
 		<div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
-		 Fila Runners Women £100
+		 Fila Runners Women  &euro; 100
 		</div>
 	  </div>
 	  
 	  <div class="w3-display-container mySlides">
 		<img src="https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1530812705/536532_GGZ30_1261_001_100_0000_Light-Flashtrek-sneaker-with-removable-crystals.jpg" style="width:55%">
 		<div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
-			Gucci Flashtrek sneaker with removable crystals £1000
+			Gucci Flashtrek sneaker with removable crystals  &euro; 1000
 		</div>
 	  </div>
 	  
@@ -121,7 +121,7 @@ Seq[Any](format.raw/*1.27*/("""
 
 		<div class="col-sm-4">
 		<div class="midcol">
-				<img src="https://i.pinimg.com/originals/91/84/5b/91845b732fbbb0ad01edefb8467a7e59.jpg" alt="Rory Mciroy" width="300" height="700">
+				<img src="https://i.pinimg.com/originals/91/84/5b/91845b732fbbb0ad01edefb8467a7e59.jpg" alt="Rory Mciroy" width="350" height="700">
 	
 	
 	
@@ -147,10 +147,10 @@ Seq[Any](format.raw/*1.27*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Tue Apr 16 15:12:11 IST 2019
+                  DATE: Thu Apr 18 14:39:12 IST 2019
                   SOURCE: /home/wdd/ProjectYear2/app/views/index.scala.html
-                  HASH: 8631001cf44e076f51bff5f377f096d1ec953e4e
-                  MATRIX: 959->1|1079->26|1107->29|1133->47|1171->48|1200->51|3775->2598|3804->2599|3835->2603|3893->2634|3921->2635|3958->2645|4007->2666|4036->2667|4067->2671|4179->2755|4208->2756|4250->2770|4279->2771|4310->2775|4349->2786|4378->2787|4427->2808|4456->2809|4487->2813|4546->2844|4575->2845|4609->2852|4670->2886|4698->2887|4729->2891|4803->2938|4831->2939|4863->2944|5187->3237
+                  HASH: c796031838b0a4e1f0e7340ae5ac55957c81aa0b
+                  MATRIX: 959->1|1079->26|1107->29|1133->47|1171->48|1200->51|3773->2596|3802->2597|3833->2601|3891->2632|3919->2633|3956->2643|4005->2664|4034->2665|4065->2669|4177->2753|4206->2754|4248->2768|4277->2769|4308->2773|4347->2784|4376->2785|4425->2806|4454->2807|4485->2811|4544->2842|4573->2843|4607->2850|4668->2884|4696->2885|4727->2889|4801->2936|4829->2937|4861->2942|5185->3235
                   LINES: 28->1|33->1|34->2|34->2|34->2|35->3|101->69|101->69|102->70|103->71|103->71|105->73|105->73|105->73|106->74|108->76|108->76|108->76|108->76|109->77|109->77|109->77|109->77|109->77|110->78|110->78|110->78|111->79|112->80|112->80|113->81|114->82|114->82|115->83|132->100
                   -- GENERATED --
               */
