@@ -27,21 +27,21 @@
 			<thead>
 				<!-- The header row-->
 				<tr>
-					<th>Image</th>
-					<th>ID</th>
-					<th>Name</th>
-					<th>Category</th>
-					<th>Description</th>
-					<th>Stock</th>
-					<th>Price</th>
+					<th style=color:#333;>Image</th>
+					<th style=color:#333;>ID</th>
+					<th style=color:#333;>Name</th>
+					<th style=color:#333;>Category</th>
+					<th style=color:#333;>Description</th>
+					<th style=color:#333;>Stock</th>
+					<th style=color:#333;>Price</th>
 				</tr>
 			</thead>
 			<tbody>
 				@* Loop for creating table rows from ItemOnSale data *@
 				@for(i<-items) {
 					<tr>
-						@if(env.resource("public/images/productImages/Thumbnails" + i.getId + ".jpg").isDefined){
-							<td><img src="/assets/images/productImages/Thumbnails/@(i.getId + ".jpg")"/></td>
+						@if(env.resource("public/images/productImages/" + i.getId + ".jpg").isDefined){
+							<td><img src="/assets/images/productImages/@(i.getId + ".jpg")"/></td>
                           } else {
 							  <td><img src="/assets/images/productImages/Thumbnails/noImage.jpg"/></td>
 						  }
