@@ -220,7 +220,7 @@ public class HomeController extends Controller {
                 thumb.addImage(file.getAbsolutePath());
                 thumb.thumbnail(60);
                 // Save the  image
-                thumb.addImage("public/images/productImages/thumbnails/" + id + ".jpg");
+                thumb.addImage("public/images/productImages/Thumbnails/" + id + ".jpg");
                 // execute the operation
                 try{
                     cmd.run(op);
