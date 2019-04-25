@@ -31,3 +31,5 @@ run
 exit
 run
 exit
+run
+sudo apt-get install libmagickwand-dev imagemagick

@@ -41,7 +41,7 @@
 				@for(i<-items) {
 					<tr>
 						@if(env.resource("public/images/productImages/" + i.getId + ".jpg").isDefined){
-							<td><img src="/assets/images/productImages/@(i.getId + ".jpg")"/></td>
+							<td><img src="/assets/images/productImages/Thumbnails/@(i.getId + ".jpg")"/></td>
                           } else {
 							  <td><img src="/assets/images/productImages/Thumbnails/noImage.jpg"/></td>
 						  }

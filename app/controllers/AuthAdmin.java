@@ -6,6 +6,7 @@ import java.util.concurrent.CompletableFuture;
 
 import models.users.*;
 
+
 // More information about Action.Simple:
 // https://alexgaribay.com/2014/06/15/authentication-in-play-framework-using-java/
 
