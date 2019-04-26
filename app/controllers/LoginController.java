@@ -11,7 +11,7 @@ import java.util.List;
 import javax.inject.Inject;
 
 import models.users.*;
-
+import models.users.UserPassword2;
 import views.html.*;
 
 public class LoginController extends Controller {
@@ -55,7 +55,43 @@ public class LoginController extends Controller {
         flash("success", "You have been logged out");
         return redirect(routes.LoginController.login());
     }
+    public Result registerUser() { 
+        Form<UserPassword2> regForm = formFactory.form(UserPassword2.class); 
+        return ok(registerUser.render(regForm,User.getUserById(session().get("email")))); 
+    }
     
+    public Result registerUserSubmit() { 
+     
+        Form<User> newUserForm = formFactory.form(User.class).bindFromRequest(); 
+        Form<UserPassword2> newUserForm2 = formFactory.form(UserPassword2.class).bindFromRequest(); 
+     
+        if (newUserForm.hasErrors()) { 
+     
+            return badRequest(registerUser.render(newUserForm2,User.getUserById(session().get("email")))); 
+        } else {
+     
+            User  newUser = newUserForm.get(); 
+            UserPassword2 newUser2 = newUserForm2.get(); 
+     
+     
+            if(!newUser2.getPassword().equals(newUser2.getPassword())){ 
+                flash("error", "Passwords must match ");  
+                return redirect(controllers.routes.LoginController.registerUser()); 
+                
+            } 
+        
+            if(User.getUserById(newUser.getEmail())==null){ 
+                newUser.save(); 
+            }else{ 
+                newUser.update(); 
+            }
+    
+        flash("success", "User " + newUser2.getName() + " was registered."); 
+    
+        return redirect(controllers.routes.LoginController.login());  
+        } 
+    } 
+     
         }
 
 

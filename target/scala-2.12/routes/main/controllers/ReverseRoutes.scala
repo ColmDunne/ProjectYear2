@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/wdd/ProjectYear2/conf/routes
-// @DATE:Thu Apr 04 17:02:04 IST 2019
+// @DATE:Fri Apr 26 17:37:05 IST 2019
 
 import play.api.mvc.Call
 
@@ -11,14 +11,14 @@ import _root_.play.libs.F
 // @LINE:6
 package controllers {
 
-  // @LINE:35
+  // @LINE:39
   class ReverseAssets(_prefix: => String) {
     def _defaultPrefix: String = {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
   
-    // @LINE:35
+    // @LINE:39
     def versioned(file:Asset): Call = {
       implicit lazy val _rrc = new play.core.routing.ReverseRouteContext(Map(("path", "/public"))); _rrc
       Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[play.api.mvc.PathBindable[Asset]].unbind("file", file))
@@ -26,14 +26,14 @@ package controllers {
   
   }
 
-  // @LINE:29
+  // @LINE:33
   class ReverseCountController(_prefix: => String) {
     def _defaultPrefix: String = {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
   
-    // @LINE:29
+    // @LINE:33
     def count(): Call = {
       
       Call("GET", _prefix + { _defaultPrefix } + "count")
@@ -92,14 +92,14 @@ package controllers {
   
   }
 
-  // @LINE:31
+  // @LINE:35
   class ReverseAsyncController(_prefix: => String) {
     def _defaultPrefix: String = {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
   
-    // @LINE:31
+    // @LINE:35
     def message(): Call = {
       
       Call("GET", _prefix + { _defaultPrefix } + "message")
@@ -114,19 +114,31 @@ package controllers {
     }
 
   
-    // @LINE:22
+    // @LINE:25
     def loginSubmit(): Call = {
       
       Call("GET", _prefix + { _defaultPrefix } + "loginSubmit")
     }
   
-    // @LINE:24
+    // @LINE:20
+    def registerUser(): Call = {
+      
+      Call("GET", _prefix + { _defaultPrefix } + "registerUser")
+    }
+  
+    // @LINE:27
     def logout(): Call = {
       
       Call("GET", _prefix + { _defaultPrefix } + "logout")
     }
   
-    // @LINE:20
+    // @LINE:21
+    def registerUserSubmit(): Call = {
+      
+      Call("POST", _prefix + { _defaultPrefix } + "registerUserSubmit")
+    }
+  
+    // @LINE:23
     def login(): Call = {
       
       Call("GET", _prefix + { _defaultPrefix } + "login")

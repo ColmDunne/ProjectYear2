@@ -22,6 +22,7 @@ create table item_on_sale (
 create table user (
   email                         varchar(255) not null,
   role                          varchar(255),
+  date_of_birth                 date,
   name                          varchar(255),
   password                      varchar(255),
   constraint pk_user primary key (email)

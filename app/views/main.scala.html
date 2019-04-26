@@ -2,15 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-			<style>
-				table, td {
-					border: 1px solid #333;
-					border-collapse: collapse;
-					background-color: #333;
-					color: white;
-					text-align:center;
-				}
-				</style>	
+				
 			
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8"/>
@@ -49,32 +41,43 @@
 			.topnav a.active {
 			  background-color: chartreuse;
 			  color: #333;
-			}
+			}table, td {
+					border: 1px solid #333;
+					border-collapse: collapse;
+					background-color: #333;
+					color: white;
+					text-align:center;
+				}
+				a.a{
+					font-style:italic;
+					background-color: chartreuse;
+					color: #333
+				}
 			</style>
 			</head>
 			<body>
 			
 			<div class="topnav">
-			  <a class="active" href="@routes.HomeController.index()">C.C.A SportsWare</a>
+			  <a class = "a" class="active" href="@routes.HomeController.index()">C.C.A SportsWear</a>
 			  <a href="@routes.HomeController.index()">Home</a>
 			  <a href="@routes.HomeController.onsale()">On Sale</a>
 			  <a href="@routes.HomeController.about()">About us / F.A.Q</a>
-			  @if(user != null) {
+				@if(user == null) {
+					<a href="@routes.LoginController.registerUser()">Sign Up</a>
+					}
+				@if(user != null) {
 				<a href="@routes.LoginController.logout()">Log Out</a>
 			} else {
 				<a href="@routes.LoginController.login()">Log In</a>
 			}	
-			<a><div></div></a><a><div></div></a><a><div></div></a><a><div></div></a><a><div></div></a><a><div></div></a>
-			<a><div></div></a><a><div></div></a><a><div></div></a><a><div></div></a><a><div></div></a><a><div></div></a>
-			<a><div></div></a><a><div></div></a><a><div></div></a><a><div></div></a><a><div></div></a><a><div></div></a>
-			<a><div></div></a><a><div></div></a><a><div></div></a><a><div></div></a><a><div></div></a><a><div></div></a>
-			<a><div></div></a><a><div></div></a><a><div></div></a><a><div></div></a><a><div></div></a><a><div></div></a>
-			<a><div></div></a><a><div></div></a>
 			
+			
+			<div align="right">
 				<form class="form-inline my-2 my-lg-0">
 					<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
 					<button style="background-color: chartreuse" style="color:white;" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-				  </form>
+					</form>
+				</div>
 				</div>
 			  
 			</div>
@@ -141,7 +144,7 @@
 						<tr>
 							<td>Sunday</td>
 							<td>12:00-20:00</td>
-						  <td></td>
+						  <td>Help@@gmail.com</td>
 						</tr>
 					</table>
 		    </div>

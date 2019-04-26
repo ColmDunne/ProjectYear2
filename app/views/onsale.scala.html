@@ -11,7 +11,7 @@
    
 	<div class="col-sm-3">
 		<h4>Categories</h4>
-		<div class="list-group">
+		<div class="list-group" >
 			<a href="@routes.HomeController.onsale(0)" class="list-group-item">All categories</a>
 			@for(c<-categories) {
 				<a href="@routes.HomeController.onsale(c.getId)" class="list-group-item catheight">@c.getName
@@ -22,18 +22,18 @@
 	</div>
 
 	<div class="col-sm-9">
-		<h4>Note that all products are second hand, unless otherwise stated.</h4>
+		<h4>We Hope You Can Find What You Are Looking For!</h4>
 		<table class="table table-bordered table-hover table-condensed">
 			<thead>
 				<!-- The header row-->
 				<tr>
-					<th style=color:#333;>Image</th>
-					<th style=color:#333;>ID</th>
-					<th style=color:#333;>Name</th>
-					<th style=color:#333;>Category</th>
-					<th style=color:#333;>Description</th>
-					<th style=color:#333;>Stock</th>
-					<th style=color:#333;>Price</th>
+					<th style=color:chartreuse;>Image</th>
+					<th style=color:chartreuse;>ID</th>
+					<th style=color:chartreuse;>Name</th>
+					<th style=color:chartreuse;>Category</th>
+					<th style=color:chartreuse;>Description</th>
+					<th style=color:chartreuse;>Stock</th>
+					<th style=color:chartreuse;>Price</th>
 				</tr>
 			</thead>
 			<tbody>

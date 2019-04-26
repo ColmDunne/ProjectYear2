@@ -40,12 +40,11 @@ Seq[Any](format.raw/*1.27*/("""
 	<div style="text-align:center;">
 	<h2 align="center">About us</h2>
 <h4 style="color:Tomato;"><b>Conor Mc Donnell: Conor@gmail.com</b></h4>
-<p > I am a student in T.U dublin (Tallaght) currently studying Computer science.
-	 I am twenty years old i am in second year Im working par-time in Dunnes in the ilac. My plan is to stay there until im finished college.</p> 
+<p > I am a student in T.U dublin (Tallaght) currently studying Computer science. I am twenty years old. I am in second year Im working par-time in Dunnes in the Ilac. My plan is to stay there until im finished college.</p> 
 <h4 style="color:Tomato;"><b>Colm Dunne: Colm@gmail.com</b></h4>
-<p> I am a student in T.U dublin (Tallaght) currently studying Computer science. I am nineteen years old i am in second year i am working in Dunnes in the ashleaf. my plan for the future is to stay until i am finished college </p> 
+<p> I am a student in T.U dublin (Tallaght) currently studying Computer science. I am nineteen years old. I am in second year I am working in Dunnes in the Ashleaf. My plan for the future is to stay until I am finished college </p> 
 <h4 style="color:Tomato;"><b>Andrei Iancu: Andrei@gmail.com</b></h4>
-<p> I am a student in T.U dublin (Tallaght) currently studying Computer science. I am twenty years old i am in second year and am a pea head</p> 
+<p> I am a student in T.U dublin (Tallaght) currently studying Computer science. I am twenty years old I am in second year and am a pea head</p> 
 </div>
 <h2 align="center">F.A.Q</h2>
 <div class="col-sm-12">
@@ -111,7 +110,7 @@ Seq[Any](format.raw/*1.27*/("""
 
 
 
-""")))}),format.raw/*82.2*/("""
+""")))}),format.raw/*81.2*/("""
 
 
 
@@ -140,11 +139,11 @@ Seq[Any](format.raw/*1.27*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Thu Apr 18 14:02:35 IST 2019
+                  DATE: Fri Apr 26 14:01:10 IST 2019
                   SOURCE: /home/wdd/ProjectYear2/app/views/about.scala.html
-                  HASH: 7bc9a2b38fa4c2eeb977432ada45ce7db54e272b
-                  MATRIX: 959->1|1079->26|1107->29|1137->51|1176->53|1205->56|4121->2946
-                  LINES: 28->1|33->1|34->2|34->2|34->2|35->3|114->82
+                  HASH: 4a1e9b73d1159e108d860e70356e0424c1f419ce
+                  MATRIX: 959->1|1079->26|1107->29|1137->51|1176->53|1205->56|4120->2945
+                  LINES: 28->1|33->1|34->2|34->2|34->2|35->3|113->81
                   -- GENERATED --
               */
           
